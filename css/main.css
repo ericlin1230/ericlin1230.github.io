@@ -146,13 +146,118 @@ footer {
     display: inline-block;
 }
 
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    display: inline-block;
+    background-color: white;
+}
+
+.overlay2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    display: inline-block;
+    background-color: #0f376c;
+}
+
+.text {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: left;
+    line-height: 100%;
+    width: 275px;
+}
+
+.button {
+    background-color: white;
+    border: none;
+    color: #0f376c;
+    padding: 0px 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px 0px;
+    cursor: pointer;
+    border-radius: 12px;
+    position: absolute;
+    top: 63%;
+    left: 30%;
+    opacity: 1;
+}
+
+.button2 {
+    background-color: white;
+    border: none;
+    color: #0f376c;
+    padding: 0px 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px 0px;
+    cursor: pointer;
+    border-radius: 12px;
+    position: absolute;
+    top: 43%;
+    left: 25%;
+}
+
+.text1 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: left;
+    line-height: 100%;
+    width: 275px;
+}
+
+.container:hover .overlay {
+    opacity: 0.9;
+}
+
+.container:hover .overlay2 {
+    opacity: 0.95;
+}
+
+.container {
+    position: relative;
+    padding: 0px;
+    width: 100%;
+}
+
 .uoftbot {
     margin-right: 2%;
     display: inline-block;
 }
 
 .imageuoft {
-    height: 300px;
+    height: 350px;
 }
 
 .expblock section {
@@ -197,10 +302,21 @@ footer {
         display: block;
         width: 100%;
     }
+    .overlay {
+        width: 350px;
+        padding: 0px;
+    }
+    .overlay2 {
+        width: 350px;
+        padding: 0px;
+    }
     .luna {
         display: block;
         width: 100%;
         margin-right: 10%;
+    }
+    .container {
+        margin-left: 0px;
     }
 }
 
@@ -215,17 +331,17 @@ footer {
     }
 }
 
-.envlink{
+.envlink {
     color: pink;
 }
 
-.envlink:hover{
+.envlink:hover {
     color: rgb(252, 156, 172);
 }
 
 .contact {
     min-height: 50%;
-    background:#e6e6e6;
+    background: #e6e6e6;
     height: 50%;
     width: 100%;
     position: relative;
@@ -240,34 +356,36 @@ footer {
     animation: showup 1.5s linear forwards;
 }
 
-.contactme{
+.contactme {
     font-size: 350%;
     font-family: 'Rokkitt', serif;
 }
 
-.contactinfo{
+.contactinfo {
     font-family: 'Rokkitt', serif;
     font-size: 130%;
     color: #191919;
 }
 
-.contactlink{
+.contactlink {
     font-family: 'Rokkitt', serif;
     font-size: 130%;
     color: #191919;
 }
 
-.contactlink:hover{
+.contactlink:hover {
     color: rgb(252, 156, 172);
 }
-.explink:hover{
+
+.explink:hover {
     color: rgb(252, 156, 172);
 }
-.explink{
+
+.explink {
     color: pink;
 }
 
-.animation1{
+.animation1 {
     animation: showup 1s linear forwards;
     color: #ACAEBD !important;
 }
