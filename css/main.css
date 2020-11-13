@@ -60,7 +60,7 @@ footer {
 
 .aboutblock {
     padding-left: 10%;
-    padding-top: 7.5%;
+    padding-top: 5.5%;
     color: #ACAEBD;
     font-family: 'Roboto Slab', serif;
 }
@@ -463,6 +463,17 @@ footer {
 }
 
 .contactlink:hover {
+    color: rgb(252, 156, 172);
+}
+
+
+.contactlink2 {
+    font-family: 'Rokkitt', serif;
+    font-size: 100%;
+    color:#9EA7E1;
+}
+
+.contactlink2:hover {
     color: rgb(252, 156, 172);
 }
 
