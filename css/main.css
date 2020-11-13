@@ -188,6 +188,21 @@ footer {
     background-color: black;
 }
 
+.overlay4 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    display: inline-block;
+    background-color: #FC6161;
+}
+
+
 .text {
     color: black;
     font-size: 20px;
@@ -285,6 +300,20 @@ footer {
     width: 275px;
 }
 
+.text2 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: left;
+    line-height: 100%;
+    width: 275px;
+}
+
 .container:hover .overlay {
     opacity: 0.9;
 }
@@ -294,6 +323,10 @@ footer {
 }
 
 .container:hover .overlay3 {
+    opacity: 0.93;
+}
+
+.container:hover .overlay4 {
     opacity: 0.93;
 }
 
